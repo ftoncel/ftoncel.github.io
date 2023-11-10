@@ -1,0 +1,128 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to left, rgb(51, 50, 50), grey, #737c88, rgb(200, 200, 200),rgb(0, 0, 0));
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-family: 'Monoton', sans-serif;
+    text-align: center;
+    color: #fff;
+    padding: 20px 0;
+    margin: 0;
+}
+
+h1 {
+    background-image: url('https://i.pinimg.com/564x/a5/fc/65/a5fc65d0a0dd166034566d453e964257.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 10;
+}
+
+/* Centrar h2 en las columnas */
+.column h2 {
+    font-family: 'Kenia', sans-serif;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-family: 'Gloria Hallelujah', cursive;
+    color: #ffffff;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.column {
+    flex: 1;
+    background-image: url('https://i.pinimg.com/564x/7e/61/8d/7e618dc93cf9875482f43927e131a0b2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 8px;
+    padding: 4px;
+    background-color: #807b7b;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+li a {
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    color: none; /* Color normal del enlace */
+}
+
+li a:visited {
+    color: #000000; /* Color del enlace después de hacer clic (igual que el color normal) */
+}
+
+li:hover {
+    background-color: #5b5f63e7;
+    color: rgb(255, 255, 255);
+    transform: translateX(6px); /* Mueve el texto 5 píxeles hacia la derecha al pasar el mouse por encima */
+    transition: transform 0.4s ease; /* Agrega una transición suave */
+}
+
+li:hover {
+    background-image: linear-gradient(to left, rgb(51, 50, 50), grey, #737c88, rgb(200, 200, 200),rgb(0, 0, 0));
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+li .hidden-image {
+    position: absolute; /* Establece la posición absoluta para la imagen */
+    display: none; /* Oculta la imagen inicialmente */
+}
+
+li:hover .hidden-image {
+    display: block; /* Muestra la imagen al hacer hover */
+    position: absolute; /* Establece la posición absoluta para la imagen al hacer hover */
+    top: -100px; /* Ajusta la posición vertical de la imagen */
+    left: 0; /* Ajusta la posición horizontal de la imagen */
+    z-index: 1; /* Coloca la imagen encima del contenido del elemento li */
+    background-color: #fff; /* Establece un fondo para la "nube" */
+    padding: 10px; /* Añade espacio alrededor de la imagen */
+    border: 1px solid #ccc; /* Agrega un borde a la "nube" */
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3); /* Agrega una sombra a la "nube" */
+}
+
+li img {
+    width: 80px; /* Ancho deseado para la imagen */
+    height: 80px; /* Alto deseado para la imagen */
+}
+
+
